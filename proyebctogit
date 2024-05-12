@@ -103,3 +103,5 @@ puedo ver el historial del cambios
 
 la palabra HEAD en el historial significa que es el archivo mas reciente
  
+git show <namefile>
+muestra el archivos y los cambios 
