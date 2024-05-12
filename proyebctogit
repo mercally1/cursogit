@@ -71,14 +71,14 @@ los enchufes seguros de capas (Secure Sockets Layer - SSL). TambiÃ©n es una
 GIT CONFIG --LIST
 Muestra las configuracion de git 
 
-git config --lÃist --show -origin 
-muestra lÃa ruta donde esta el archivo de configuracion
+git config --lï¿½ist --show -origin 
+muestra lï¿½a ruta donde esta el archivo de configuracion
 
 git config --global user.name
 para modificar la configuracion del usuario 
 
 git config --global user.email
-para cambiar la configuracion deÃl email 
+para cambiar la configuracion deï¿½l email 
 
 
 pasos para hacer uso de los repositorios de git
@@ -105,3 +105,8 @@ la palabra HEAD en el historial significa que es el archivo mas reciente
  
 git show <namefile>
 muestra el archivos y los cambios 
+
+para ver las diferencias entre los commits solo colocamos la palabra diff y los commits 
+a comparar
+git diff <commit1> <commit2> 
+
