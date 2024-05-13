@@ -71,14 +71,14 @@ los enchufes seguros de capas (Secure Sockets Layer - SSL). TambiÃ©n es una
 GIT CONFIG --LIST
 Muestra las configuracion de git 
 
-git config --lÃist --show -origin 
-muestra lÃa ruta donde esta el archivo de configuracion
+git config --lï¿½ist --show -origin 
+muestra lï¿½a ruta donde esta el archivo de configuracion
 
 git config --global user.name
 para modificar la configuracion del usuario 
 
 git config --global user.email
-para cambiar la configuracion deÃl email 
+para cambiar la configuracion deï¿½l email 
 
 
 pasos para hacer uso de los repositorios de git
@@ -104,7 +104,7 @@ puedo ver el historial del cambios
 la palabra HEAD en el historial significa que es el archivo mas reciente
  
 en el mundo de git y el mundo de desarrollo 
-la rama Master es el repositorio principaÃl donde se guardan los cambios sin errores 
+la rama Master es el repositorio principaï¿½l donde se guardan los cambios sin errores 
 la rama de experimento se le conoce como development
 y la rama bugfixing se le conoce conmo hotfix que son los cambios en calientes.
 
@@ -122,11 +122,14 @@ git checkout <colocar el indicativo de git > <namefile>
 
 
 cuando tenemos un repositorio en un servidor remoto a eso se le llama GITHUB y cuando traemos los cambios
-deÃl repositorio remoto hacia el repositorio local eso se le llama clonar
+deï¿½l repositorio remoto hacia el repositorio local eso se le llama clonar
 
-si tengo commits en eÃl repositorio remoto a los envio hacia el repositorio remoto se le realiza un git push
+si tengo commits en eï¿½l repositorio remoto a los envio hacia el repositorio remoto se le realiza un git push
 
-para traer cambios hacia el repositorio local se realiza un git fetch peÂro  no lo fusiona hasta que se le 
+para traer cambios hacia el repositorio local se realiza un git fetch peï¿½ro  no lo fusiona hasta que se le 
 realiza un merge
 
 git pull -- es trae los cambios y los fusiona todo los cambios en el repositorio local 
+
+la creacion de una rama va a comenzar justamente en el ultimo cambio 
+con el command git branch <namebranch> 
