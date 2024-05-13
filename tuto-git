@@ -156,3 +156,6 @@ git push origin <namebranch>
 
 para generar la update del git de master a main 
 cammand git branch -m main
+
+commando para forzar que haga haga pull 
+git pull origin main  -- allow -unrelated-histories
