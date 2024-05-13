@@ -192,3 +192,6 @@ clone el repositorio de github y colocarlo en el servidor
 
 el archivo readme es archivo para relatar sobre el proyecto que estamos haciendo 
 
+como traer commit
+git cherry-pick <commit>
+
