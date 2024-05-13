@@ -215,3 +215,9 @@ git short log -sn --all -- no-merge
 
 para ver quien hizo los cambios 
 git blame <namefile>
+
+para ver las ramas locales y remotas 
+git branch -a
+
+para ver las ramas  remotas 
+git branch -r
