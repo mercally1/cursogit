@@ -150,3 +150,9 @@ si no realiza el merge tiene que solucionar los conflictos y lauch el command pa
 
 commando para enlazar tu repo con un repo en GitHub
 git remote add origin <url>
+
+comando para enviar cambios al repo remote
+git push origin <namebranch>
+
+para generar la update del git de master a main 
+cammand git branch -m main
