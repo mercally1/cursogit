@@ -165,3 +165,6 @@ git log --all --graph --decorate -- oneline
 
 comando para generar un alias para un comando demasiado largo
 alias <namealias> "command"
+
+commands para ver los tag
+git tag
