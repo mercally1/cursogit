@@ -195,3 +195,23 @@ el archivo readme es archivo para relatar sobre el proyecto que estamos haciendo
 como traer commit
 git cherry-pick <commit>
 
+reset y reflog
+git reset --hard <commit> 
+git reflog 
+
+reconstrir el commits 
+git amend
+
+buscar archivos y commits
+git grep y log
+
+grep para los archivos y log para los commits
+
+Comandos y recursos colaborativos en Git y GitHub
+git short log -sn
+trae el numeros de los commits que hiz<o cade usuario
+
+git short log -sn --all -- no-merge
+
+para ver quien hizo los cambios 
+git blame <namefile>
