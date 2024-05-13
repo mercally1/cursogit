@@ -136,5 +136,17 @@ con el command git branch <namebranch>
 
 el command git commit -am <commnet> agrega los cambios al repositorio sin pasarlo al staging
 
+como hacer merge
+git merge <namebranch>
+
+cammando para ver las ramas e indica donde estoy ubicado 
+git branch
 
 llllll-----------------kkkkkkkkkkkkkkkkkkkk
+
+conflictos es cuando dos programadores hacen cambios en las lineas de codigo
+
+si no realiza el merge tiene que solucionar los conflictos y lauch el command para el merge 
+
+commando para enlazar tu repo con un repo en GitHub
+git remote add origin <url>
