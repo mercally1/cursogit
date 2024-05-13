@@ -159,3 +159,6 @@ cammand git branch -m main
 
 commando para forzar que haga haga pull 
 git pull origin main  -- allow -unrelated-histories
+
+commando para agrega los graficos de 
+git log --all --graph --decorate -- oneline
