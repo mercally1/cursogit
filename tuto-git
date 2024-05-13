@@ -162,3 +162,6 @@ git pull origin main  -- allow -unrelated-histories
 
 commando para agrega los graficos de 
 git log --all --graph --decorate -- oneline
+
+comando para generar un alias para un comando demasiado largo
+alias <namealias> "command"
