@@ -176,3 +176,6 @@ git show-ref --tags
 
 commands para enviar tag a internet
 git push origin --tags
+
+commands para borra tags
+git tag -d <nametag>
