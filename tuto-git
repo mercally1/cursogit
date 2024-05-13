@@ -172,3 +172,7 @@ git tag -a v1.0 -m "mi primer version" <commit>
 
 para saber donde estan conectados los tags
 git show-ref --tags
+
+
+commands para enviar tag a internet
+git push origin --tags
