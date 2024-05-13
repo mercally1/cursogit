@@ -103,3 +103,30 @@ puedo ver el historial del cambios
 
 la palabra HEAD en el historial significa que es el archivo mas reciente
  
+en el mundo de git y el mundo de desarrollo 
+la rama Master es el repositorio principa√l donde se guardan los cambios sin errores 
+la rama de experimento se le conoce como development
+y la rama bugfixing se le conoce conmo hotfix que son los cambios en calientes.
+
+puede ser que un merge (que es unir una porcion de codigo al rama de desarrollo o la rama master)
+puede romper parte de ese codigo (ese se llama conflicto)
+
+para regresar a una version en el tiempo utilizamos git reset <la version que queremos regresar> --hard,
+o git reset --soft
+
+para poder ver los cambios directos que se realizaron 
+git log --status
+
+si queremos ver el texto de un commit o archivo en su esstado original 
+git checkout <colocar el indicativo de git > <namefile>
+
+
+cuando tenemos un repositorio en un servidor remoto a eso se le llama GITHUB y cuando traemos los cambios
+de√l repositorio remoto hacia el repositorio local eso se le llama clonar
+
+si tengo commits en e√l repositorio remoto a los envio hacia el repositorio remoto se le realiza un git push
+
+para traer cambios hacia el repositorio local se realiza un git fetch pe¬ro  no lo fusiona hasta que se le 
+realiza un merge
+
+git pull -- es trae los cambios y los fusiona todo los cambios en el repositorio local 
